@@ -170,7 +170,7 @@
       loader.style.display = 'block'; // Show loader before sending request
 
       var xhr = new XMLHttpRequest();
-      xhr.open('POST', '/salman/API/register.php', true);
+      xhr.open('POST', '/API/register.php', true);
       xhr.setRequestHeader('Content-Type', 'application/json');
       xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE) {
